@@ -1,0 +1,118 @@
+﻿<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登陆注册</title>
+  <link rel="stylesheet" href="./css/index.css">
+ <!-- 引入 Bootstrap CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <style>
+ 	.login-container {
+         max-width: 400px;
+         margin: auto;
+         padding-top: 40px;
+     }
+     .header-background {
+         background: url('img/a.jpg') no-repeat center center;
+         background-size: cover;
+         padding: 30px 0; /* 调整标题背景的上下内边距 */
+         border-radius: 10px;
+     }
+     .login-button {
+         background-color: #28a745;
+         color: #fff;
+     }
+     .footer1 {
+         margin-top: 20px;
+         font-size: 0.9rem;
+     }</style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav">
+
+      <div style="width: 40%;display: flex;margin-left: 10%;">
+        <img src="images/logo.png" style="height: 40px;margin-right: 30px">
+        <h1 class="logo">
+          Spring City · Jinan
+        </h1>
+      </div>
+
+	  <div class="size2 col-2 m-md-2">
+      <ul class="nav-list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./jianjie.html">Introduction</a></li>
+        <li><a href="./lvyou.html">Attractions</a></li>
+        <li><a href="./meishi.html">Local Cuisine</a></li>
+		<li><a href="denglu.html" class="navs">Log in</a></li>
+
+      </ul></div>
+    </div>
+    <div class="banner">
+      <img src="./images/banner4.jpg" alt="">
+    </div>
+    <div class="w">
+     <div class="lianxi">
+        <p class="lianxi-title">Login</p>
+		<div class="lianxi-box">
+			<form>
+		    <div class="form-group">
+		        <label for="username">Username</label>
+		        <div class="input-group mb-2">
+		            <div class="input-group-prepend">
+		                <span class="input-group-text"><i class="fas fa-user"></i></span>
+		            </div>
+		            <input type="text" class="form-control" id="username" placeholder="Enter username">
+		        </div>
+		    </div>
+		    <div class="form-group">
+		        <label for="password">Password</label>
+		        <div class="input-group mb-2">
+		            <div class="input-group-prepend">
+		                <span class="input-group-text"><i class="fas fa-lock"></i></span>
+		            </div>
+		            <input type="password" class="form-control" id="password" placeholder="Enter password">
+		        </div>
+		    </div>
+		    <div class="form-check">
+		        <input class="form-check-input" type="checkbox" id="autoLogin">
+		        <label class="form-check-label" for="autoLogin">Auto login</label>
+		    </div>
+		    <div class="form-check">
+		        <input class="form-check-input" type="checkbox" id="rememberMe">
+		        <label class="form-check-label" for="rememberMe">Remember password</label>
+		    </div>
+		    <button type="submit" class="btn btn-success rounded btn-lg btn-block mt-4">Secure login</button>
+		    <div class="footer1 d-flex justify-content-between mt-3">
+		        <a href="#">Register an account   
+</a>
+		        <a href="#" class="ml-auto">  /Scan code to log in</a>
+		    </div>
+		</form>
+		</div>
+		
+      </div>
+    </div> 
+	
+  <!-- 引入 Bootstrap JS 和依赖的 Popper.js -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <div class="footer">
+  	  <div class="size5 col-12 ">
+  	 
+    <p>
+      <a href="./index.html">Home |</a>
+      <a href="./jianjie.html">Jinan History |</a>
+      <a href="./lvyou.html">Attractions |</a>
+      <a href="./meishi.html">Local Cuisine |</a>
+      <a href="./denglu.html">Log in</a>
+     </p>
+     <p>All Rights Reserved </p>
+  	</div>
+  </div>
+ </div>
+</body>
+</html>
